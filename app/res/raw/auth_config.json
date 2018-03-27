@@ -1,11 +1,11 @@
 {
-  "client_id": "",
-  "redirect_uri": "net.openid.appauthdemo:/oauth2redirect",
-  "authorization_scope": "openid email profile",
-  "discovery_uri": "",
-  "authorization_endpoint_uri": "",
-  "token_endpoint_uri": "",
+  "client_id": "brighthr-android",
+  "redirect_uri": "com.brighthr.brighthr://oauth2redirect/brighthr-provider",
+  "authorization_scope": "brighthr-api-full-access brighthr-auth-subject-config offline_access openid",
+  "discovery_uri": "https://bright-auth-dev.azurewebsites.net/.well-known/openid-configuration",
+  "authorization_endpoint_uri": "https://bright-auth-dev.azurewebsites.net/connect/authorize",
+  "token_endpoint_uri": "https://bright-auth-dev.azurewebsites.net/connect/token",
   "registration_endpoint_uri": "",
-  "user_info_endpoint_uri": "",
+  "user_info_endpoint_uri": "https://bright-auth-dev.azurewebsites.net/connect/userinfo",
   "https_required": true
 }
